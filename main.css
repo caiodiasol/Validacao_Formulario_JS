@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arsenal SC", sans-serif;
+}
+
+.container {
+    margin: 60px auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+.container h3, h2 {
+    margin: 16px auto;
+    font-weight: bold;
+    font-family: "Arsenal SC", sans-serif;
+    color: black;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input, textarea, button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    resize: none;
+}
+
+button {
+    background-color: #4e308f;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Arsenal SC", sans-serif;
+    cursor: pointer;    
+}
+
+button:hover {
+    background-color: #5306d7;
+}
+
+.sucess-message {
+    color:#fff;
+    background-color: green ;
+    padding: 16, auto;
+}
+
+.error-message {
+    color:#fff;
+    background-color: red;
+    padding: 16, auto;
+}
+
